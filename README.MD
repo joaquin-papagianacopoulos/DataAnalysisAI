@@ -37,7 +37,7 @@ Python 3.8+
 
 ### Instalar dependencias
 ```bash
-pip install streamlit pandas numpy matplotlib seaborn plotly openai gtts streamlit-mic-recorder
+pip install streamlit pandas numpy matplotlib seaborn plotly openai gtts streamlit-mic-recorder crewai langchain langgraph
 ```
 
 ### Configuración OpenAI
@@ -71,6 +71,11 @@ streamlit run app.py
 │ Business Intel  │◀───│   AI Assistant   │───▶│ Report Generator│
 └─────────────────┘    └──────────────────┘    └─────────────────┘
 ```
+
+### 🤖 **Sistema Multi-Agente**
+- **CrewAI**: Orquestación de agentes especializados (limpieza, análisis, visualización, reporte)
+- **LangChain**: Cadenas de procesamiento para carga de archivos y análisis con pandas/seaborn
+- **LangGraph**: Gestión de flujos condicionales (análisis numérico vs categórico vs mixto)
 
 ## 📋 Capacidades por Tipo de Datos
 
@@ -112,6 +117,9 @@ streamlit run app.py
 | **IA Conversacional** | OpenAI GPT-3.5 |
 | **Procesamiento Audio** | Whisper API, gTTS |
 | **Interface Audio** | streamlit-mic-recorder |
+| **Orquestación Multi-Agente** | CrewAI |
+| **Cadenas de Procesamiento** | LangChain |
+| **Flujos de Trabajo** | LangGraph |
 
 ## 💡 Casos de Uso
 
@@ -165,7 +173,7 @@ MIT License - Libre para uso comercial y personal
 
 ## 👨‍💻 Autor
 
-**Tu Nombre**
+**Joaquin Papagianacopoulos**
 - GitHub: [@joaquin-papagianacopoulos](https://github.com/joaquin-papagianacopoulos)
 - LinkedIn: [Joaquin Papagianacopoulos](https://linkedin.com/in/joaquinpapagianacopoulos)
 
@@ -173,6 +181,6 @@ MIT License - Libre para uso comercial y personal
 
 ### 🎯 **¿Por qué este proyecto?**
 
-> "Democratizar el análisis de datos empresariales. Cualquier persona debería poder subir un CSV y obtener insights profesionales en minutos, no horas."
+> "Cualquier persona debería poder subir un CSV y obtener insights profesionales en minutos, no horas. El uso de la IA para tomar decisiones a través de datos es una de las principales tendencias en la industria y debe ampliarse a que más empresas, ya sean pequeñas o grandes, puedan aprovechar estas ventajas."
 
 **⭐ Si te resulta útil, dale una estrella al repo!**
